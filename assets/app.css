@@ -1,0 +1,204 @@
+body {
+	font-family: "Nunito", sans-serif;
+	font-weight: 400
+}
+
+h3 {
+	margin: 5px;
+}
+
+#buyP {
+	margin: 5px;
+}
+
+#buyZone {
+	background: rgb(80,80,150);
+	padding: 0 5px;
+	width: 100%;
+	border-radius: 0%;
+	line-height: 5px;
+}
+
+#mainNav {
+	background-image: url("cosmos.png");
+	font-size: 0.9rem;
+	font-weight: 600;
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+}
+
+#pflPackageDiv {
+	background-color: rgb(124,120,187);
+}
+
+#pflPackageH5 {
+	font-size: 1.8rem;
+	font-weight: 800;
+}
+
+#myCarousel {
+	padding: 100px 10px;
+}
+
+.buyButtons {
+	margin: 5px;
+	font-weight: 600;
+} .buyButton:hover {
+	opacity: 0.5;
+	text-decoration: underline;
+}
+
+.card {
+	border: 8px solid rgb(120,120,185);
+	font-size: 0.8rem;
+    border-radius: 1px;
+    transition: all 0.2s ease 0s;
+    max-height: auto;
+} .card:hover {
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 10px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.2s ease 0.1s;
+}
+
+.carousel-caption {
+	margin: 1rem;
+}
+
+.circle {
+text-decoration: none;
+padding: 20px;
+border-radius: 20px;
+border: none;
+transition: all 0.2s ease 0s;
+} .circle:hover {
+padding: 21px;
+border-radius: 40px;
+-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+transition: all 0.2s ease 0s;
+}
+
+.fas {
+	color: white;
+	background-color: rgb(80,80,150);
+	font-size: 30px;
+	padding: 20px;
+	margin: auto;
+	box-shadow: -2px 10px 10px -2px rgba(61,60,130,0.7);;
+}
+
+.fa-bars {
+	background: none;
+	border: 0;
+	box-shadow: none;
+	margin: 0;
+	padding-top: auto;
+	padding-bottom: 0;
+}
+
+.fa-leaf {
+	font-size: 5rem;
+	color: rgb(187,242,88);
+	background: transparent;
+	box-shadow: none;
+}
+
+.fa-rocket {
+	font-size: 5rem;
+	color: rgb(92,241,197);
+	background: transparent;
+	box-shadow: none;
+}
+
+.fa-suitcase {
+	font-size: 5rem;
+	color: rgb(241,172,54);
+	background: transparent;
+	box-shadow: none;
+}
+
+.jumbotron {
+	background: rgb(80,80,150);
+	margin: 0;
+}
+
+.leftMarginAlignment{
+	margin-left: 5rem;
+}
+
+.navbar-brand {
+	font-size: 1.2rem;
+	margin-right: 35px;
+	transition: 0.2s;
+}
+
+.navbar-brand:hover {
+	opacity: 0.5;
+	transition: 0.2s;	
+}
+
+.navbar-item:hover {
+	opacity: 0.5;
+	transition: 0.2s;
+}
+
+.slideButton{
+	border-radius: 48%;
+	transition: all 0.2s ease 0s 
+} .slideButton:hover {
+	border-radius: 50%;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.2s ease 0s;
+}
+
+.slideImg{
+	border-radius: 3px;
+    transition: all 0.4s ease 0s;
+} .slideImg:hover {
+	border-radius: 5px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.70);
+	opacity: 0.9;
+	transition: all 0.4s ease 0.1s;
+}
+
+.transparency {
+	opacity: 0.8;
+	transition: 0.3s;
+} .transparency:hover {
+	opacity: 1;
+	transition: 0.3s;
+}
+
+#triangle {
+	margin-top: 8rem;
+	padding: 1px;
+	width: 100px;
+	height: 0;
+	border-style: solid;
+	border-width: 25px 50px 25px 0;
+	border-color: transparent rgb(120,120,185) transparent transparent;
+}
+
+
+.yellowButton {
+	border-radius: 5px;
+	display: inline-block;
+	border: none;
+	transition: all 0.4s ease 0s;
+} .yellowButton:hover {
+	background: #906030;
+	color: white;
+	letter-spacing: 1px;
+	border-radius: 10px;
+	-webkit-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	-moz-box-shadow: 0px 5px 40px -10px rgba(0,0,0,0.57);
+	box-shadow: 5px 40px -10px rgba(0,0,0,0.57);
+	transition: all 0.2s ease 0s;
+}
